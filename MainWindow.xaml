@@ -1,0 +1,21 @@
+﻿<Window x:Class="TrojkatyKwadraty.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TrojkatyKwadraty"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="368" Width="688">
+    <Grid Margin="0,0,0,-6">
+        <Image Source="Images/trapez.png" x:Name="obrazek" HorizontalAlignment="Left" Height="275" Margin="184,36,0,0" VerticalAlignment="Top" Width="491"/>
+        <Button x:Name="trojkat" Content="Pokaż trójkąt" HorizontalAlignment="Left" Height="30" Margin="30,106,0,0" VerticalAlignment="Top" Width="120" Click="trojkat_Click"/>
+        <Button x:Name="kwadrat" Content="Pokaż kwadrat" HorizontalAlignment="Left" Height="30" Margin="30,176,0,0" VerticalAlignment="Top" Width="120" Click="kwadrat_Click"/>
+        <Button x:Name="romb" Content="Pokaż romb" HorizontalAlignment="Left" Height="30" Margin="30,211,0,0" VerticalAlignment="Top" Width="120" Click="romb_Click"/>
+        <Button x:Name="trapez" Content="Pokaż trapez" HorizontalAlignment="Left" Height="30" Margin="30,246,0,0" VerticalAlignment="Top" Width="120" Click="trapez_Click"/>
+        <Button x:Name="kolo" Content="Pokaż kolo" HorizontalAlignment="Left" Height="30" Margin="30,284,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.517,-0.165" Click="kolo_Click"/>
+        <Button x:Name="prostokat" Content="Pokaż prostkat" HorizontalAlignment="Left" Height="30" Margin="30,36,0,0" VerticalAlignment="Top" Width="120" Click="prostokat_Click"/>
+        <Button x:Name="rownobok" Content="Pokaż rownoleglobok" HorizontalAlignment="Left" Height="30" Margin="30,71,0,0" VerticalAlignment="Top" Width="120" Click="rownobok_Click"/>
+        <Button x:Name="deltoid" Content="Pokaż deltoid" HorizontalAlignment="Left" Height="30" Margin="30,141,0,0" VerticalAlignment="Top" Width="120" Click="deltoid_Click"/>
+
+    </Grid>
+</Window>
